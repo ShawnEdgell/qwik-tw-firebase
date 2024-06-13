@@ -31,26 +31,37 @@
   "devDependencies": {
     "@builder.io/qwik": "^1.5.7",
     "@builder.io/qwik-city": "^1.5.7",
+    "@qwik-ui/headless": "^0.4.4",
+    "@qwik-ui/styled": "^0.1.0",
+    "@qwik-ui/utils": "^0.2.1",
     "@tailwindcss/typography": "^0.5.13",
+    "@types/caseless": "^0.12.5",
     "@types/eslint": "^8.56.10",
+    "@types/estree": "^1.0.5",
+    "@types/json-schema": "^7.0.15",
+    "@types/ms": "^0.7.34",
     "@types/node": "^20.12.7",
+    "@types/tough-cookie": "^4.0.5",
     "@typescript-eslint/eslint-plugin": "^7.7.1",
     "@typescript-eslint/parser": "^7.7.1",
     "autoprefixer": "^10.4.14",
-    "daisyui": "^4.12.2",
     "eslint": "^8.57.0",
     "eslint-plugin-qwik": "^1.5.7",
     "firebase-tools": "^13.10.2",
+    "nx": "^19.2.3",
     "postcss": "^8.4.31",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.4",
+    "qwik-ui": "^0.1.0",
     "tailwindcss": "3.3.3",
     "typescript": "5.4.5",
-    "undici": "*",
-    "vite": "^5.2.10",
-    "vite-tsconfig-paths": "^4.2.1"
+    "undici": "^6.18.2",
+    "vite": "^5.2.13",
+    "vite-tsconfig-paths": "^4.3.2"
   },
   "dependencies": {
+    "class-variance-authority": "^0.7.0",
     "firebase": "^10.12.2"
-  }
+  },
+  "nx": {}
 }

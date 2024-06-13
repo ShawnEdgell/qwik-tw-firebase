@@ -3,13 +3,10 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 
 export default component$(() => {
   return (
-    <>
+    <div>
       <h1>Contact Us</h1>
-      <div>
-        <p>If you have any questions, feel free to reach out to us!</p>
-        <p>Email: contact@ourapp.com</p>
-      </div>
-    </>
+      <p>This is the contact page.</p>
+    </div>
   );
 });
 
@@ -18,7 +15,7 @@ export const head: DocumentHead = {
   meta: [
     {
       name: "description",
-      content: "Get in touch with us through this page.",
+      content: "Contact us page description",
     },
   ],
 };

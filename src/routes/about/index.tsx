@@ -3,13 +3,10 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 
 export default component$(() => {
   return (
-    <>
+    <article class="prose lg:prose-xl">
       <h1>About Us</h1>
-      <div>
-        <p>Welcome to the About page!</p>
-        <p>Here you can learn more about our app.</p>
-      </div>
-    </>
+      <p>This is the about page.</p>
+    </article>
   );
 });
 
@@ -18,7 +15,7 @@ export const head: DocumentHead = {
   meta: [
     {
       name: "description",
-      content: "Learn more about us on this page.",
+      content: "About us page description",
     },
   ],
 };

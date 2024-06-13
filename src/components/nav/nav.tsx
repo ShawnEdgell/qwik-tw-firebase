@@ -4,7 +4,7 @@ import { Link } from "@builder.io/qwik-city";
 export const Nav = component$(() => {
   return (
     <nav>
-      <ul>
+      <ul class="flex w-full justify-center space-x-4 p-4">
         <li>
           <Link href="/">Home</Link>
         </li>

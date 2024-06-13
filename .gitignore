@@ -53,3 +53,6 @@ functions/dist
 
 # Environment variables
 .env
+
+
+.nx/cache
